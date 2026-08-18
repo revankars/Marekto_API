@@ -1,4 +1,34 @@
-# Marketo API - Access Token Management & Testing
+# Marketo API Lead Import Automation - Overview
+A Python-based automation solution for importing lead data into Adobe Marketo Engage through the Marketo REST API.
+
+The project provides a reliable, secure, and well-documented process for CSV-based lead imports, including API authentication, token lifecycle management, CSV validation, import processing, status monitoring, error handling, and troubleshooting.
+
+Key Features
+🚀 Automated lead import into Marketo via REST API
+🔐 Secure access-token management with expiration tracking and automatic refresh
+📄 CSV validation and configurable import processing
+🔄 Import status monitoring and polling
+🛠️ Comprehensive error handling and troubleshooting guidance
+⚡ Support for long-running import operations
+📊 Detailed logging and execution feedback
+📚 Extensive technical and user documentation
+Documentation
+The repository includes comprehensive documentation covering:
+
+Getting Started – Quick setup and import instructions
+Import Script Reference – Functions, configuration, workflow, and examples
+Module Reference – Architecture, dependencies, and execution flow
+Token Management – Authentication, expiration, validation, and auto-refresh
+Token Testing – Token verification and troubleshooting
+Command Reference – Common commands and expected outputs
+Troubleshooting – Solutions for authentication, CSV, connectivity, permissions, and import issues
+Quick Start
+python3 verify_token.py
+python3 import_leads.py
+
+Start with README.md for setup instructions, then refer to the detailed documentation as needed.
+
+This repository is designed to make the Marketo lead import process repeatable, maintainable, secure, and easy for both users and developers to operate and support.
 
 ## 🚀 Quick Start
 
